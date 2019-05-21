@@ -1,4 +1,4 @@
-# Project LD 
+# Project LD explanation and theory of operation
 
 Project LD is our attempt at Augmented Reality (AR) assisted beer pong (minus the beer). The goal was to track a bouncing ping pong ball using a camera in 3-dimensions in realtime and then superimpose the path of the bouncing ball on the video feed as well as superimpose the path that should have been taken to get the ball into the cup. We were able to get a successful 2D track of the ball's position and scale, but did not have time to work on the 3D track.
 
@@ -8,6 +8,23 @@ The tracking was done very similar to how the visual effects software Adobe Afte
 
 The reason for this is we need to add a module that accomplishes frame interpolation. Since a falling ball falls very fast relative to the frame, comparing the frame before the drop to the frame after the drop will show a large vertical change between frames. Frame interpolation will guess where the ball would have been between the frames, and would allow for a much better track. 
 
-I worked on this project with my partner, Neeloy Chakraborty (Github: TheNeeloy). Feel free to contact us if you have any questions! 
+# Interfaces/Devices used 
 
+* VGA 
+* Camera Module (1.3 MP TRDB_DC2)
+* USB Mouse (via EZ-OTG)
+* DE2-115 Expansion Board (with Altera Cyclone IV E)
 
+# Demonstration 
+
+A video of the process involved in making and the final demo can be found [here] (https://www.youtube.com/watch?v=chocc--7Fws&t=6s)
+
+# Authors 
+
+* Harris Mohamed (Camera, configuration, conceptualization of match moving algorithm) - [Website] (https://batman-wayne.github.io/website/)
+* Neeloy Chakraborty (Mouse, realization of match moving algorithm) - [Git] (https://github.com/TheNeeloy)
+
+# Acknowledgement
+
+* Professor Zuofu Cheng for giving valuable advice and being a great professor 
+* TA David Zhang for believing in us 
