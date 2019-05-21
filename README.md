@@ -26,5 +26,6 @@ A video of the process involved in making and the final demo can be found [here]
 
 # Acknowledgement
 
-* Professor Zuofu Cheng for giving valuable advice and being a great professor 
+* Professor [Zuofu Cheng](https://ece.illinois.edu/directory/profile/zcheng1) for giving valuable advice and being a great professor 
 * TA David Zhang for believing in us 
+* [Andrew Smith](https://github.com/atsmith3) for helping optimize the match move algorithm
