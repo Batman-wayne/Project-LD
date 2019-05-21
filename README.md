@@ -17,12 +17,12 @@ The reason for this is we need to add a module that accomplishes frame interpola
 
 # Demonstration 
 
-A video of the process involved in making and the final demo can be found [here] (https://www.youtube.com/watch?v=chocc--7Fws&t=6s)
+A video of the process involved in making and the final demo can be found [here](https://www.youtube.com/watch?v=chocc--7Fws&t=6s)
 
 # Authors 
 
-* Harris Mohamed (Camera, configuration, conceptualization of match moving algorithm) - [Website] (https://batman-wayne.github.io/website/)
-* Neeloy Chakraborty (Mouse, realization of match moving algorithm) - [Git] (https://github.com/TheNeeloy)
+* Harris Mohamed (Camera, configuration, conceptualization of match moving algorithm) - [Website](https://batman-wayne.github.io/website/)
+* Neeloy Chakraborty (Mouse, realization of match moving algorithm) - [Git](https://github.com/TheNeeloy)
 
 # Acknowledgement
 
